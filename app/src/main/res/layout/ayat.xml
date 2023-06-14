@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:padding="20dp"
+    >
+
+
+        <TextView
+            android:id="@+id/tvAyatArab"
+            style="@style/TextAppearance.AppCompat.Title"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentEnd="true"
+            android:text="الفاتحة"
+            android:textSize="20dp"
+            android:textStyle="bold"
+            tools:layout_editor_absoluteX="266dp"
+            tools:layout_editor_absoluteY="5dp"
+            tools:ignore="MissingConstraints" />
+
+        <TextView
+            android:id="@+id/tvTerjemahanAyat"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/tvAyatArab"
+            android:text="Al-Fatihah"
+            tools:layout_editor_absoluteX="-11dp"
+            tools:layout_editor_absoluteY="23dp"
+            tools:ignore="MissingConstraints" />
+
+
+
+</RelativeLayout>

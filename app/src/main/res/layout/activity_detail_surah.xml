@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    tools:context=".DetailSurahActivity"
+    android:background="@drawable/photowal">
+
+    <TextView
+        android:id="@+id/tvNamaSurah"
+        style="@style/TextAppearance.AppCompat.Title"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="10dp"
+        android:text="Nama Surah"
+        android:textSize="30dp" />
+
+    <TextView
+        android:id="@+id/tvIDSurah"
+        android:layout_below="@+id/tvNamaArabicSurah"
+        android:text="ID Surah : "
+        android:textSize="20dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        />
+
+    <TextView
+        android:id="@+id/tvNamaArabicSurah"
+        style="@style/TextAppearance.AppCompat.Title"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_marginStart="5dp"
+        android:layout_marginTop="1dp"
+        android:layout_marginEnd="66dp"
+        android:layout_marginBottom="10dp"
+        android:text="Arabic Surah"
+        android:textSize="30dp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/tvUrutanTurunSurah"
+        android:layout_below="@+id/tvTempatTurunSurah"
+        android:layout_width="match_parent"
+        android:textSize="20dp"
+        android:layout_height="wrap_content"
+        android:text="Urutan Turun Surah : "
+        />
+
+    <TextView
+        android:id="@+id/tvTempatTurunSurah"
+        android:layout_below="@+id/tvJumlahAyatSurah"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="20dp"
+        android:text="Tempat Turun Surah :"
+        />
+
+    <TextView
+        android:id="@+id/tvJumlahAyatSurah"
+        android:layout_below="@+id/tvIDSurah"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="20dp"
+        android:text="Jumlah Ayat Surah : "
+        />
+
+</RelativeLayout>
